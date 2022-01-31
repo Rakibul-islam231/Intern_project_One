@@ -1,0 +1,111 @@
+/**Contact page responcive start...............**/
+@media(min-width: 1200px) and (max-width: 1399px){
+    .form .name input{
+        width: 430px; 
+    }
+    .form .name .big_inp{
+        width: 930px !important;
+    }
+        
+}
+@media(min-width: 992px) and (max-width: 1199px){
+    .form .name input{
+        width: 350px; 
+    }
+    .form .name .big_inp{
+        width: 763px !important;
+    }
+        
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .form .name input{
+        width: 470px; 
+        margin-left: 0 !important;
+        transform: translateX(120px);
+    }
+    .form .name .big_inp{
+        width: 470px !important;
+    }
+        
+}
+@media(min-width: 576px) and (max-width: 767px){
+    .form .name input{
+        width: 400px; 
+        margin-left: 0 !important;
+        transform: translateX(70px);
+    }
+    .form .name .big_inp{
+        width: 400px !important;
+    }
+    .form button{
+        margin-left: 70px;
+    }
+        
+}
+@media(min-width: 479px) and (max-width: 575px){
+    .form .name input{
+        width: 350px; 
+        margin-left: 0 !important;
+        transform: translateX(50px);
+    }
+    .form .name .big_inp{
+        width: 350px !important;
+    }
+    .form button{
+        margin-left: 50px;
+    }
+    .form .tex h4{
+        font-size: 42px !important;
+    }
+    .form .tex p{
+        font-size: 13px !important;
+    }  
+}
+@media(min-width: 300px) and (max-width: 478px){
+    .form .name input{
+        width: 280px; 
+        margin-left: 0 !important;
+        transform: translateX(7px);
+    }
+    .form .name .big_inp{
+        width: 280px !important;
+        height: 113 !important;
+    }
+    .form button{
+        height: 33px;
+        width: 104px;
+        margin-left: 7px;
+    }
+    .form button a{
+        font-size: 13px; 
+        font-weight: 400;
+    }
+    .form .tex h4{
+        font-size: 38px !important;
+    }
+    .form .tex p{
+        font-size: 13px !important;
+    }  
+}
+/**futter**/
+@media(min-width: 300px) and (max-width: 399px){
+    .futter .futter_pad .write .icon_dis{
+        display: block !important;
+    }
+    .futter .futter_pad .write .icon_dis .fb{
+        margin-top: 10px;
+    }
+    .futter .futter_pad .write .icon_dis .bc{
+        margin-left: 15px !important;
+    }
+    .futter .futter_pad .write .img_flx{
+        display: block !important;
+    }
+    .futter .futter_pad .write .img_flx .img_one{
+        margin-top: 10px;
+    }
+    .futter .futter_pad .write a{
+        display: block;
+    }
+}
+/**Contact page responcive End...............**/
